@@ -4,11 +4,18 @@
   "type": "module",
   "devDependencies": {
     "@nomicfoundation/hardhat-ignition": "^3.0.6",
+    "@nomicfoundation/hardhat-ignition-viem": "^3.0.6",
     "@nomicfoundation/hardhat-toolbox-viem": "^5.0.1",
+    "@nomicfoundation/hardhat-viem": "^3.0.1",
     "@types/node": "^22.19.6",
     "forge-std": "github:foundry-rs/forge-std#v1.9.4",
     "hardhat": "^3.1.4",
     "typescript": "~5.8.0",
     "viem": "^2.44.2"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^1.5.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "dotenv": "^17.2.3"
   }
 }
