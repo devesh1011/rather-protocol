@@ -1,0 +1,12 @@
+"use client";
+
+import { WalletProvider } from "@/lib/wallet-context";
+import { ToastProvider } from "@/lib/toast";
+
+export function Providers({ children }: React.ReactNode) {
+  return (
+    <WalletProvider>
+      <ToastProvider>{children}</ToastProvider>
+    </WalletProvider>
+  );
+}
