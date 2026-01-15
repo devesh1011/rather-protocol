@@ -1,5 +1,7 @@
 # Rather Strategy Protocol
 
+Demo Video: <iframe width="560" height="315" src="[www.youtube.com](https://youtu.be/FV6zNLXVhCE)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 > **Autonomous NFT Treasury Flywheel on Arbitrum Sepolia**
 
 A self-sustaining on-chain economic loop: collects 10% swap fees → auto-buys floor NFTs → relists at 10% premium → burns RATHER tokens with profits → repeats perpetually.
