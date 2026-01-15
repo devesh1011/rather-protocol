@@ -6,6 +6,10 @@ A self-sustaining on-chain economic loop: collects 10% swap fees → auto-buys f
 
 **Zero manual intervention. 100% on-chain. Fully transparent.**
 
+[![Watch the Rather Strategy Protocol Demo](https://img.youtube.com/vi/FV6zNLXVhCE/maxresdefault.jpg)](https://youtu.be/FV6zNLXVhCE)
+
+**[Watch Full Demo on YouTube](https://youtu.be/FV6zNLXVhCE)**
+
 ## 🚀 Live Deployment (Arbitrum Sepolia)
 
 | Contract                | Address                                      | Arbiscan                                                                               |
