@@ -32,7 +32,12 @@ export async function getSigner() {
       ]);
     } catch (error: unknown) {
       // Chain not added, add it
-      if (error.code === 4902) {
+      if (
+        error &&
+        typeof error === "object" &&
+        "code" in error &&
+        error.code === 4902
+      ) {
         await provider.send("wallet_addEthereumChain", [
           {
             chainId: `0x${ARBITRUM_SEPOLIA.chainId.toString(16)}`,

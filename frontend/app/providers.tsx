@@ -3,7 +3,7 @@
 import { WalletProvider } from "@/lib/wallet-context";
 import { ToastProvider } from "@/lib/toast";
 
-export function Providers({ children }: React.ReactNode) {
+export function Providers({ children }: { children: React.ReactNode }) {
   return (
     <WalletProvider>
       <ToastProvider>{children}</ToastProvider>

@@ -43,14 +43,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 📦 Tech Stack
 
-- **Framework**: Next.js 14 (App Router)
-- **Package Manager**: Bun
-- **Styling**: Tailwind CSS v4
-- **Web3 Stack**:
-  - wagmi 3.3.2 (React Hooks for Ethereum)
-  - viem 2.44.2 (TypeScript Ethereum library)
-  - @reown/appkit 1.8.16 (WalletConnect v3)
-  - @tanstack/react-query 5.90.17
+Next.js 16.1.2, React 19.2.3, TypeScript, Tailwind CSS v4, ethers.js v6.16.0, Solidity 0.8.28, Hardhat, Arbitrum Sepolia, Turbopack, Bun
 
 ## 📄 Pages
 
